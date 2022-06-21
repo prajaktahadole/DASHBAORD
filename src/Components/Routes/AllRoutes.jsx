@@ -18,13 +18,10 @@ const AllRoutes = () =>{
                 <Route path="/" element={<Home/>}></Route>
                 <Route path="/order" element={<Order/>}></Route>
                 <Route path="/products" element={<Products/>}></Route> 
-                <Route path="/labtest" element={<LabTest/>}></Route>
-                <Route path="/offer" element={<Offers/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
                 <Route path="/signin" element={<Signin/>}></Route>
                 <Route path="/singleproducts" element={<SingleProduct/>}></Route>  
                 <Route path="/cart" element={<Cart/>}></Route>  
-
             </Routes>
     </div>
 }
